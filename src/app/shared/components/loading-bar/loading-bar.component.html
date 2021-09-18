@@ -1,0 +1,25 @@
+<div class="container">
+
+    <div class="text-info">
+        <h2 *ngIf="remainingTimeText != ''">{{ remainingTimeText }}</h2>
+    </div>
+        
+
+    <div class="loader-container">
+        <div #loaderBg class="loader-bg">
+            <div class="pointer-container">
+                <img #pointer class="pointer" src="../../../../assets/bier.svg" alt="Ponteiro do loader">
+                <div #textoSextou class="text-sextou">SEXTOU!!!</div>
+            </div>
+            <div #loaderMask class="loader-mask">
+            </div>
+        </div>
+    </div>
+
+
+    
+</div>
+
+
+
+<!-- <img class="img-loader-sextou" src="../../../../assets/sextou.png" alt="Barra de carregamento"> -->

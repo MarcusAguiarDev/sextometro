@@ -1,1 +1,34 @@
 /* You can add global styles to this file, and also import other style files */
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    color: #F8F8F2;
+    background-color: #282A36;
+    font-family: monospace;
+}
+
+main {
+    flex: 1;
+}
+
+h1 {
+    font-size: 2.6em;
+    color: #AE88E5;
+}
+
+h2 {
+    font-size: 2em;
+    color: #D76AAB;
+}
+
+h3 {
+    color: #4CE574;
+}
+
+h4 {
+    color: #F1AE68;
+}
